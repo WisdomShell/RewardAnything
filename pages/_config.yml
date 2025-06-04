@@ -32,7 +32,7 @@ exclude:
 # Social links
 github_username: zhuohaoyu
 paper_url: "https://arxiv.org/abs/XXXX.XXXXX"
-huggingface_url: "https://huggingface.co/zhuohaoyu/RewardAnything-8B-v1"
+huggingface_url: "https://huggingface.co/WisdomShell/RewardAnything-8B-v1"
 pypi_url: "https://pypi.org/project/rewardanything/"
 
 # Project info
