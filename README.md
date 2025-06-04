@@ -303,7 +303,7 @@ result = reward_model.judge(
 
 ## 📈 Performance & Benchmarks
 
-git checkout origin/main
+Please refer to our paper for performance metrics and comparison.
 
 ## 📚 Documentation
 
