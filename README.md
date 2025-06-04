@@ -303,11 +303,7 @@ result = reward_model.judge(
 
 ## 📈 Performance & Benchmarks
 
-RewardAnything achieves state-of-the-art performance on multiple benchmarks:
-
-- **RM-Bench**: 92.3% accuracy (vs 87.1% for best baseline)
-- **RABench**: 89.7% principle-following accuracy
-- **HH-RLHF**: 94.2% alignment with human preferences
+git checkout origin/main
 
 ## 📚 Documentation
 
