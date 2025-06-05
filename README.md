@@ -8,7 +8,7 @@
   <p>
     <a href="https://zhuohaoyu.github.io/RewardAnything"><img alt="Website" src="https://img.shields.io/badge/🌐_Project-Website-A593C2?style=flat-square&labelColor=8A7AA8"></a>
     <a href="https://huggingface.co/zhuohaoyu/RewardAnything-8B-v1"><img alt="Model Weights" src="https://img.shields.io/badge/🤗_HuggingFace-Model_Weights-D4A574?style=flat-square&labelColor=B8956A"></a>
-    <a href="https://arxiv.org/abs/XXXX.XXXXX"><img alt="Paper" src="https://img.shields.io/badge/📄_arXiv-Paper-C7969C?style=flat-square&labelColor=A8798A"></a>
+    <a href="https://arxiv.org/abs/2506.03637"><img alt="Paper" src="https://img.shields.io/badge/📄_arXiv-Paper-C7969C?style=flat-square&labelColor=A8798A"></a>
     <a href="https://pypi.org/project/rewardanything/"><img alt="PyPI" src="https://img.shields.io/pypi/v/rewardanything.svg?style=flat-square&color=7B9BB3&labelColor=5A7A94"></a>
     </p>
   <br/>
@@ -322,7 +322,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 @article{yu2025rewardanything,
   title={RewardAnything: Generalizable Principle-Following Reward Models},
   author={Yu, Zhuohao and Zeng, Jiali and Gu, Weizheng and Wang, Yidong and Wang, Jindong and Meng, Fandong and Zhou, Jie and Zhang, Yue and Zhang, Shikun and Ye, Wei},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2506.03637},
   year={2025}
 }
 ```

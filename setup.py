@@ -99,6 +99,6 @@ setup(
         "Bug Reports": "https://github.com/zhuohaoyu/RewardAnything/issues",
         "Source": "https://github.com/zhuohaoyu/RewardAnything",
         "Documentation": "https://rewardanything.readthedocs.io/",
-        "Paper": "https://arxiv.org/abs/XXXX.XXXXX",
+        "Paper": "https://arxiv.org/abs/2506.03637",
     },
 )
