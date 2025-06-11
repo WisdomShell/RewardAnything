@@ -7,7 +7,7 @@
   <br/>
   <p>
     <a href="https://zhuohaoyu.github.io/RewardAnything"><img alt="Website" src="https://img.shields.io/badge/🌐_Project-Website-A593C2?style=flat-square&labelColor=8A7AA8"></a>
-    <a href="https://huggingface.co/zhuohaoyu/RewardAnything-8B-v1"><img alt="Model Weights" src="https://img.shields.io/badge/🤗_HuggingFace-Model_Weights-D4A574?style=flat-square&labelColor=B8956A"></a>
+    <a href="https://huggingface.co/WisdomShell/RewardAnything-8B-v1"><img alt="Model Weights" src="https://img.shields.io/badge/🤗_HuggingFace-Model_Weights-D4A574?style=flat-square&labelColor=B8956A"></a>
     <a href="https://arxiv.org/abs/XXXX.XXXXX"><img alt="Paper" src="https://img.shields.io/badge/📄_arXiv-Paper-C7969C?style=flat-square&labelColor=A8798A"></a>
     <a href="https://pypi.org/project/rewardanything/"><img alt="PyPI" src="https://img.shields.io/pypi/v/rewardanything.svg?style=flat-square&color=7B9BB3&labelColor=5A7A94"></a>
     </p>
@@ -73,7 +73,7 @@ import rewardanything
 
 # Load model locally (similar to HuggingFace)
 reward_model = rewardanything.from_pretrained(
-    "zhuohaoyu/RewardAnything-8B-v1",  # Model path/name
+    "WisdomShell/RewardAnything-8B-v1",  # Model path/name
     device="cuda",                        # Device placement
     torch_dtype="auto"                   # Automatic dtype selection
 )
@@ -117,7 +117,7 @@ First, install and start a vLLM server. See the [vLLM quickstart guide](https://
 pip install vllm
 
 # Start vLLM server with RewardAnything model
-vllm serve zhuohaoyu/RewardAnything-8B-v1 \
+vllm serve WisdomShell/RewardAnything-8B-v1 \
     --host 0.0.0.0 \
     --port 8000 \
     --max-model-len 8192 \
@@ -131,7 +131,7 @@ Create a config file `config.json`:
 ```json
 {
   "api_key": ["dummy-key-for-vllm"],
-  "api_model": "zhuohaoyu/RewardAnything-8B-v1",
+  "api_model": "WisdomShell/RewardAnything-8B-v1",
   "api_base": ["http://localhost:8000/v1"],
   "api_timeout": 120.0,
   "generation_config": {
@@ -191,11 +191,11 @@ from rewardanything.processing import prepare_chat_messages, parse_rewardanythin
 
 # Load model and tokenizer directly
 model = AutoModelForCausalLM.from_pretrained(
-    "zhuohaoyu/RewardAnything-8B-v1",
+    "WisdomShell/RewardAnything-8B-v1",
     torch_dtype="auto",
     device_map="auto"
 )
-tokenizer = AutoTokenizer.from_pretrained("zhuohaoyu/RewardAnything-8B-v1")
+tokenizer = AutoTokenizer.from_pretrained("WisdomShell/RewardAnything-8B-v1")
 
 # Prepare evaluation data
 principle = "Judge responses based on helpfulness and accuracy"
